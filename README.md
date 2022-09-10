@@ -1,6 +1,7 @@
 # python-filevault
 Small python project for testing out encryption features of cryptography.py
-Currently uses os temporary files to store decrypted files. Can be circumvented by changing file locaation to ramdisk in the future.
+
+Currently uses os temporary files to store decrypted files. Can be circumvented by changing file location to ramdisk in the future.
 On Windows one would need dokany or similar to create a ramdisk. In linux this would be trivial.
 
 Usage: `python fv.py encrypted_filepath [--source path to file/folder to add before opening the vault] [-m move files to vault instead of copying them]`
